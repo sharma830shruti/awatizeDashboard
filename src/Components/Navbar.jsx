@@ -6,7 +6,10 @@ import { FaUserCircle } from "react-icons/fa";
 
 const Navbar = () => {
   return (
+    <div className="nav">
+
     <nav className="navbar">
+      
       <input
         type="text"
         className="search-input"
@@ -17,7 +20,9 @@ const Navbar = () => {
         <FiBell className="icon bell-icon" />
         <FaUserCircle className="icon profile-icon" />
       </div>
+      
     </nav>
+    </div>
   );
 };
 

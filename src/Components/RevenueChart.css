@@ -1,31 +1,23 @@
 .chart-container {
-  width: 35%;
-  margin-left: 300px;
-  margin-top: 30px;
+  width: 50%;
+  margin-top: 10px;
   background-color: #ffffff;
-  padding: 16px;
+  padding: 10px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
 }
 
-/* Title */
-.chart-heading {
-  margin-bottom: 10px;
-  font-size: 16px;
-}
-
-/* Inline toggle button layout */
 .button-row {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 12px;
+ 
 }
 
-/* Shared button styles */
+
 .toggle-group button {
   padding: 5px 10px;
-  margin-right: 8px;
+  margin: 5px 2px;
   border: none;
   border-radius: 4px;
   background-color: #e0e0e0;
@@ -35,8 +27,9 @@
   transition: background-color 0.2s;
 }
 
-/* Highlight active button */
+
 .toggle-group button.active {
-  background-color: #007bff;
+  background-color: black;
   color: white;
 }
+

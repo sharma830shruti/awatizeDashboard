@@ -1,18 +1,20 @@
-/* src/Components/Navbar.css */
+ .nav {
+  padding: 10px 20px;
+  margin: 10px 20px;
+} 
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: right;
-  background-color: #fff;
-  padding: 0 20px;
+  padding: 0 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 20px;
-  left: 320px;
+  left: 300px;
   z-index: 100;
   width: 940px;
-  height: 50px;
+  height: 45px;
   position: fixed;
 }
 
@@ -26,14 +28,16 @@
   border: 1px solid #ccc;
   border-radius: 25px;
   outline: none;
-  background-color: #f1f1f1;
+  background-color: white;
 }
 
 .navbar-icons {
   display: flex;
   align-items: center;
   gap: 20px;
-  margin-left: 20px;
+  margin-left: 10px;
+  
+  border-radius: 50%;
 }
 
 .icon {
@@ -41,8 +45,13 @@
   color: #555;
   cursor: pointer;
   transition: color 0.3s;
+  border: 2px white;
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
 }
 
 .icon:hover {
   color: #000;
+  transition: transform 0.3s ease; 
 }

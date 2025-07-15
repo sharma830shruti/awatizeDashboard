@@ -44,9 +44,7 @@ const RevenueCharts = () => {
 
   return (
     <div className="chart-container">
-      <h3 className="chart-heading">Impressions & Revenue</h3>
-
-      {/* Combined Toggle Buttons */}
+      
       <div className="button-row">
         <div className="toggle-group">
           {["yearly", "monthly", "weekly"].map((r) => (

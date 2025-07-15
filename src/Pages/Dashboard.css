@@ -1,3 +1,9 @@
+.dashboard {
+  margin-top: 30px;
+  font-family: 'Inter', sans-serif;
+}
+
+
 .card {
   background-color: #fff;
   padding: 20px;
@@ -12,7 +18,7 @@
 }
 
 .card-title {
-  font-size: 18px;
+  font-size: 28px;
   color: #444;
   margin-bottom: 8px;
 }
@@ -32,6 +38,16 @@
 .dashboard-cards {
   display: flex;
  
- 
-  margin-left: 330px ;
+}
+
+.positive {
+  color: #28a745; 
+  font-weight: 600;
+  font-size: larger;
+}
+
+.negative {
+  color: #dc3545; 
+  font-weight: 600;
+  font-size: larger;
 }

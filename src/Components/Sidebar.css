@@ -1,46 +1,46 @@
-/* src/Components/Sidebar.css */
 
 .sidebar {
-  width: 220px;
+  width: 250px;
+  background-color: #f9f9f9;
   height: 100vh;
-  background-color: #F5F6F6;
-  color: #fff;
-  padding: 30px 20px;
-  position: fixed;
-  left: 0;
-  top: 0;
+  padding-top: 20px;
 }
 
-.sidebar-logo img{
- width: 200px;
+.sidebar-logo {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sidebar-logo img {
+  width: 120px;
 }
 
 .sidebar-menu {
   list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.sidebar-menu li {
-  margin-bottom: 20px;
+  padding: 10px;
+  margin: 10px;
 }
 
 .sidebar-link {
+  display: flex;
+  align-items: center;
+  padding: 12px 20px;
+  color: #333;
   text-decoration: none;
-  color: #2d1616;
-  font-size: 18px;
-  display: block;
-  padding: 10px;
-  border-radius: 6px;
-  transition: background-color 0.3s, color 0.3s;
+  transition: background 0.3s ease;
 }
 
-.sidebar-link:hover {
-  background-color: #333;
-  color: white;
-}
-
+.sidebar-link:hover,
 .sidebar-link.active {
-  background-color: black;
+  background-color: #141313;
+  border-radius: 10px;
+  font-weight: bold;
   color: white;
+  margin: 10px;
+  padding: 10px;
+}
+
+.sidebar-icon {
+  margin-right: 10px;
+  font-size: 20px;
 }

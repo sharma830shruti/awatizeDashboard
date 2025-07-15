@@ -12,20 +12,21 @@ import './App.css';
 const App = () => {
   return (
     <Router>
-      <div className="app">
-        <Navbar />
+      <div className="app-layout">
         <Sidebar />
-        
 
-        <div className="main-content">
-          <Routes>
-            
-            <Route path="/" element={<Dashboard />} />
-            <Route path="/inventory" element={<Inventory />} />
-            <Route path="/publishers" element={<Publishers />} />
-            <Route path="/reports" element={<Reports />} />
-            <Route path="/users" element={<Users />} />
-          </Routes>
+        <div className="main-layout">
+          
+          <div className="main-content">
+            <Navbar />
+            <Routes>
+              <Route path="/" element={<Dashboard />} />
+              <Route path="/inventory" element={<Inventory />} />
+              <Route path="/publishers" element={<Publishers />} />
+              <Route path="/reports" element={<Reports />} />
+              <Route path="/users" element={<Users />} />
+            </Routes>
+          </div>
         </div>
       </div>
     </Router>

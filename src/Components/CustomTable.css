@@ -1,17 +1,27 @@
 .table-container {
-  width: 60%;
-  overflow-x: auto;
-  margin-top: 20px;
+  top: 0px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.08);
   background-color: #ffffff;
-  margin-left: 300px;
+  
 }
+
+.table-head h3 {
+  font-weight: 200;
+  
+}
+
+.table-head p {
+  font-size: 80;
+  color: #333333;
+  font-size: 12px;
+}
+
 
 .custom-table {
   width: 100%;
   min-width: 600px;
-  font-family: 'Segoe UI';
+  font-family: poppins;
 }
 
 .custom-table thead {
@@ -43,7 +53,5 @@
     font-size: 13px;
   }
 
-  .custom-table {
-    min-width: 60%;
-  }
+  
 }

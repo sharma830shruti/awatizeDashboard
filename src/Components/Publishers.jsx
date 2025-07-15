@@ -1,5 +1,6 @@
 import React from "react";
 import CustomTable from "./CustomTable"; 
+import "./Publishers.css"; 
 
 const Publishers = () => {
   const columns = ["Publisher", "Revenue", "Growth", "Fill Rate"];
@@ -26,8 +27,8 @@ const Publishers = () => {
   ];
 
   return (
-    <div>
-      <h2>Top Publishers</h2>
+    <div className="publishers-section">
+  
       <CustomTable columns={columns} data={data} />
     </div>
   );

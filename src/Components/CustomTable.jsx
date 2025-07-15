@@ -3,7 +3,12 @@ import "./CustomTable.css";
 
 const CustomTable = ({ columns, data }) => {
   return (
+   
     <div className="table-container">
+      <div className="table-head">
+         <h3>Top Publishers</h3>
+    <p>Publishers that performed well in the last week</p>
+      </div>
       <table className="custom-table">
         <thead>
           <tr>
