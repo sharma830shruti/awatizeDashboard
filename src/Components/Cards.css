@@ -1,0 +1,11 @@
+.card-conatiner {
+    width: 940px;
+    height: 98px;
+
+}
+.card {
+    width: 200px;
+    justify-content: space-between;
+    margin: 5px;
+    height: 60px;
+}
